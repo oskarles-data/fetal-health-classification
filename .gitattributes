@@ -1,0 +1,15 @@
+# Normalize line endings across platforms
+* text=auto eol=lf
+
+# Explicit text files
+*.md    text
+*.txt   text
+*.csv   text
+*.ipynb text
+*.py    text
+
+# Binary assets (never munge)
+*.pptx  binary
+*.pdf   binary
+*.png   binary
+*.jpg   binary

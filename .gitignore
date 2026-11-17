@@ -1,0 +1,36 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# ---- Jupyter ----
+.jupyter/
+
+# ---- IDE / editor ----
+.idea/
+.vscode/
+
+# ---- Claude Code local config ----
+.claude/
+
+# ---- Node / presentation build tooling (not part of the data-science project) ----
+node_modules/
+package.json
+package-lock.json
+build_pptx.js
+slide_assets/
+
+# ---- Local-only material (kept on disk, not published) ----
+# Original submission bundle
+*.zip
+# Private evaluator feedback
+oskar-les_project-feedback.pdf
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+desktop.ini
